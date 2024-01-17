@@ -92,7 +92,7 @@ begin
 					shift_reg_control <= "01";  -- load values in shift register
 					-- switch state
 					if T = "00" then
-						next_state <= OUTPUT;
+						next_state <= PAUSE;
 						shift_reg_clock <= '1';  -- clock cycle for shift registers to update values
 					else
 						next_state <= current_state;
@@ -100,7 +100,7 @@ begin
 					end if;
 					
 				when PAUSE =>
-					shift_reg_clock <= '0';  -- shift register stays in unchanged mode: clock always at zero
+					shift_reg_clock <= shift_reg_clock;  -- shift register stays in unchanged mode: clock always at zero
 					shift_reg_control <= "00";  -- tell shift register to use pause mode
 					-- switch state
 					if T(1) = '1' then
