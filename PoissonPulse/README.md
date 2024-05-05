@@ -1,0 +1,3 @@
+# Poisson Pulse Generator
+
+This is a VHDL implementation of the following paper: [https://www.researchgate.net/publication/301321983_A_pulse_generator_with_poisson-exponential_distribution_for_emulation_of_radioactive_decay_events?enrichId=rgreq-6f89500ecc14422c7ac8d7d0404f1366-XXX&enrichSource=Y292ZXJQYWdlOzMwMTMyMTk4MztBUzo1NjM1MDk5Mjc5MTE0MjRAMTUxMTM2MjY0NDkwNQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf](https://www.researchgate.net/publication/301321983_A_pulse_generator_with_poisson-exponential_distribution_for_emulation_of_radioactive_decay_events?enrichId=rgreq-6f89500ecc14422c7ac8d7d0404f1366-XXX&enrichSource=Y292ZXJQYWdlOzMwMTMyMTk4MztBUzo1NjM1MDk5Mjc5MTE0MjRAMTUxMTM2MjY0NDkwNQ%3D%3D&el=1_x_2&_esc=publicationCoverPdf)
